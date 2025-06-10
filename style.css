@@ -1,0 +1,151 @@
+*{
+    margin:auto;
+    background-color: #B2AC88;
+}
+.containor{
+    display: flex;
+}
+.speech{
+    margin-bottom:0PX;
+    /* outline: yellow solid 3px; */
+}
+.talk_about_form{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    /* background-color: blanchedalmond; */
+    padding: 30px;
+}
+.lets_do_this{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-size:xx-large;
+    text-align: center;
+    padding: 40px;
+    padding-right: 600px;
+    
+}
+.speech_above_form{
+        font-family: 'Times New Roman', Times, serif;
+    /* color: cornflowerblue; */
+    font-weight: bolder;
+    
+}
+
+.picture-left-side{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.form1{
+    display: flex;
+    
+}
+.form2{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+}
+.form3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.last_name, .phone_number,.confirm_password{
+    margin-left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+    font-style: italic;
+}
+.name,.email, .password{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+    font-style: italic;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    background-color: #f9f9f9;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+    border-color: #0b6088;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+}
+input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="password"]:valid ,
+input[type="tel"]:valid {
+    border-color: green;
+}
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="password"]:invalid,
+input[type="tel"]:invalid {
+    border-color: red;
+}
+.right-side{
+    margin-top: 20px;
+}
+.picture-left-side{
+    width: 4000px;
+    height: 900px;
+}
+.button{
+    background-color: #596D48;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: larger;
+    width: 250px;
+    border: #596D48;
+    font-weight: bold;
+}
+.create_account{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.copy_w {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #002b23; 
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 999;
+}
+
+.copy_w a {
+    color: #90ee90;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.copy_w a:hover {
+    text-decoration: underline;
+}
